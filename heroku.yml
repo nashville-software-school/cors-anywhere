@@ -1,5 +1,4 @@
-setup:
-  config:
-    CORSANYWHERE_WHITELIST: api.yahoo.com,data.nashville.gov
 run:
   web: node server.js
+  config:
+    CORSANYWHERE_WHITELIST: https://api.yahoo.com,https://data.nashville.gov
