@@ -1,0 +1,1 @@
+web: env CORSANYWHERE_WHITELIST=api.yahoo.com,data.nashville.gov exec node server.js

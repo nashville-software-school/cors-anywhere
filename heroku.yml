@@ -1,4 +1,0 @@
-run:
-  web: node server.js
-  config:
-    CORSANYWHERE_WHITELIST: https://api.yahoo.com,https://data.nashville.gov
