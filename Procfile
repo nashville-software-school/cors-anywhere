@@ -1,1 +1,1 @@
-web: env CORSANYWHERE_WHITELIST=http://localhost node server.js
+web: env CORSANYWHERE_WHITELIST=http://localhost:3000,http://localhost:5000 node server.js
